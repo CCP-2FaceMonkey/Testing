@@ -1,0 +1,68 @@
+var first   = prompt("What is the best console?");
+
+var questions = 5;
+
+if(first == "ps4" || first == "PS4"){
+  alert("Correct");
+  questions -= 1;
+}
+else{
+  alert("Wrong");
+}
+
+var second  = prompt("2 + 2 = ?");
+
+if(second == 5){
+    alert("Correct");
+  questions -= 1;
+}
+else{
+  alert("Wrong");
+}
+
+var third  = prompt("Derrick Rose plays for ?");
+
+if(third == "Knicks" || third == "NYA"){
+    alert("Correct");
+  questions -= 1;
+}
+else{
+  alert("Wrong");
+}
+
+var four    = prompt("How big is my penis");
+
+if(four == "big"){
+    alert("Correct");
+  questions -= 1;
+}
+else{
+  alert("Wrong");
+}
+
+var five    = prompt("Do I love pussy?");
+
+if(five == "yes"){
+    alert("Correct");
+  questions -= 1;
+}
+else{
+  alert("Wrong");
+}
+
+  if(questions === 0){
+    alert("5 right answered");
+    document.write("Gold Crown");
+  }
+    else if(questions === 1 || questions === 2){
+      alert("4-3 right answered");
+      document.write("Silver Crown");
+    }
+    else if(questions === 4 || questions === 5){
+      alert("2-1 right answered");
+      document.write("Brons Crown");
+    }
+      else{
+        document.write("you fucking looser");
+      }
+  
